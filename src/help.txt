@@ -1,0 +1,7 @@
+as admin
+netstat -ano | findstr :8080
+taskkill /PID <PID> /F
+CREATE TABLE student ( id INT PRIMARY KEY, name VARCHAR(100));
+\sql
+ \connect root@localhost
+insert into names (id ,name) values (5,'shubh');
